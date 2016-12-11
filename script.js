@@ -28,10 +28,11 @@ function gamecopm2(){
     var answer=parseInt(Math.random() * 100);
     var playerNum=1;
     while(true){
-        var userAnswer=parseInt(prompt("Ходит игрок " + playerNum + ". Введите число от 0 до 100. Если сдаешься, то  нажми x"));
+        var userAnswer=prompt("Ходит игрок " + playerNum + ". Введите число от 0 до 100. Если сдаешься, то  нажми x");
         if (userAnswer=="x") {
             break;
     }
+    userAnswer=parseInt(userAnswer);
     if (playerNum==1) {
             playerNum=2;
         } else {
