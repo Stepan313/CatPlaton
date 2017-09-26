@@ -3,7 +3,7 @@ font-style: italic;
 font-size: 27px;
 
 }
-#header{
+.header{
 text-align: center;
    /*max-width:1815px;*/
 	position: fixed;
@@ -20,10 +20,10 @@ font-weight: 800px;
 font-style: normal;
 font-size: 35px;
 }
-#header span {
+.header span {
     padding: 0 15px;
     }
-#content{
+.content{
 	width: 671px;
 	background-color: #ffffff;
     float: right;
@@ -31,7 +31,7 @@ font-size: 35px;
     padding: 49px 48px 51px 76px;
     margin-right: 50px;
 }
-#center{
+.center{
 	width: 700px;
 	background-color: #ffffff;
     border: 1px solid black;
@@ -58,7 +58,7 @@ input{
     padding:15px 51px;
 }
 
-#copy{ position: fixed;
+.copy{ position: fixed;
 width: 100%;
 bottom: 0px;
 left: 0;
